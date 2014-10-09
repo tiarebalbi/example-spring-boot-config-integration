@@ -1,16 +1,16 @@
-# Módulo para integração ao web service ADCON
+# Example of integration
 
-## Instalação
+## Install
 
 ### Maven Dependency:
 
         <dependency>
-            <groupId>br.com.olearys.hemisphere</groupId>
-            <artifactId>hemisphere-ws-adcon</artifactId>
+            <groupId>com.tiarebalbi.app</groupId>
+            <artifactId>examplo-spring-boot-config-integration</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
-### Inicialiação do Módulo: 
+### Integration: 
 
     import br.com.olearys.hemisphere.app.config.AdconAutoConfiguration;
     import org.springframework.context.annotation.Import;
